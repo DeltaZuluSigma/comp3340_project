@@ -1,0 +1,19 @@
+section {
+    width: auto;
+    margin: 25px 25px 0px 25px;
+}
+form p {
+    margin: 3px;
+}
+#resvbtn {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    section {
+        margin: 25px 0px;
+    }
+    footer {
+        margin: 25px 0px 0px 0px;
+    }
+}

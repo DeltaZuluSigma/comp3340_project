@@ -1,0 +1,61 @@
+header {
+    text-align: left;
+}
+header button {
+    float: right;
+}
+section {
+    width: 100%;
+    height: auto;
+}
+section div {
+    margin: 3px auto;
+}
+section p {
+    margin: 0px;
+    text-decoration: underline;
+}
+h1 {
+    display: inline;
+    position: absolute;
+    padding: 10px;
+    font-size: 36px;
+}
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 16px;
+    margin: 0px 0px 3px 0px;
+}
+table {
+    margin: 5px auto;
+}
+td {
+    padding: 2px;
+}
+#logo {
+    width: 60px;
+    height: 60px;
+}
+#warning {
+    font-weight: bold;
+}
+.recording {
+    margin: 3px 225px;
+    background-color: #f0ffc2;
+}
+
+/*Responsive Layout*/
+@media (max-width: 600px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
