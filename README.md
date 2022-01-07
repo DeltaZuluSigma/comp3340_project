@@ -1,2 +1,2 @@
-# COMP3340 Final Project (comp3340_project)
+# COMP3340 Final Project
 Scuffed restaurant website .-.
