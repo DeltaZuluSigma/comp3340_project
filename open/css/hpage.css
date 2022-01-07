@@ -1,0 +1,46 @@
+aside {
+    height: 500px;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline overline;
+    font-style: italic;
+}
+h3 {
+    text-decoration: underline;
+}
+section, article {
+    padding: 15px 0px 5px;
+}
+aside div {
+    overflow: auto;
+    height: 370px;
+}
+aside div p {
+    font-size: 12px;
+    margin: 2px 0px 10px;
+}
+.menu {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+.quote {
+    font-size: 13px;
+}
+#menuaccess {
+    text-decoration: underline;
+}
+
+/*Responsive layout*/
+@media (max-width: 600px) {
+    article, aside {
+        width: 100%         !important;
+        height: auto        !important;
+        margin: 15px 0px    !important;
+    }
+    aside {
+        float: none         !important;
+    }
+}

@@ -1,0 +1,85 @@
+header {
+    text-align: left;
+}
+header button {
+    float: right;
+}
+aside {
+    height: 550px;
+}
+aside a {
+    text-decoration: underline;
+}
+section img {
+    width: 700px;
+    height: 480px;
+    margin: 10px;
+}
+h1 {
+    display: inline;
+    position: absolute;
+    padding: 10px;
+    font-size: 36px;
+}
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+#logo {
+    width: 60px;
+    height: 60px;
+}
+#qof, #tof, #qof th, #qof td {
+    font-size: 14px;
+}
+#qof, #tof {
+    background-color: #f0ffc2;
+    overflow: auto;
+    margin: 0px 0px 10px 0px;
+    padding: 3px;
+}
+#qof {
+    background-color: #f0ffc2;
+    overflow: auto;
+    height: 180px;
+}
+#qof th {
+    text-align: center;
+}
+#tof {
+    height: 450px;
+    text-align: left;
+}
+#tof b {
+    text-decoration: underline overline;
+}
+
+/*Responsive Layout*/
+@media (max-width: 600px) {
+    section, aside {
+        width: 100%         !important;
+        height: auto        !important;
+        margin: 15px 0px    !important;
+    }
+    section img {
+        width: 500px         !important;
+        height: 342px        !important;
+    }
+    aside {
+        float: none         !important;
+    }
+    #qof, #tof {
+        margin: 15px;
+    }
+    #tof {
+        height: 250px;
+    }
+    #qof {
+        height: 100px;
+    }
+    #qof td {
+        width: 145px;
+        text-align: center;
+    }
+}

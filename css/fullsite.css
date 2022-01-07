@@ -1,0 +1,115 @@
+/*Elements*/
+body {
+    background-color: #bdeaff;
+    font-family: cambria;
+}
+header {
+    background-color: #e7fca6;
+    margin: 0px 0px 8px 0px;
+    padding: 1px;
+    text-align: center;
+    color: black;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+}
+nav {
+    background-color: #ffffff;
+    text-align: center;
+    font-family: calibri;
+    margin: 10px 0px;
+}
+nav a {
+    margin: 0px 5px;
+}
+aside {
+    background-color: #d5ff4a;
+    padding: 5px;
+    text-align: center;
+    width: 210px;
+}
+section, article {
+    background-color: #e5ff96;
+    margin: 0px auto;
+    padding: 5px;
+    text-align: center;
+    width: 750px;
+}
+footer {
+    background-color: #afd927;
+    padding: 5px;
+}
+footer p {
+    margin: 5px 10px 5px;
+    font-size: 13px;
+}
+button {
+    cursor: pointer;
+    font-size: 14px;
+}
+footer table {
+    width: 100%;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 26px;
+}
+h4 {
+    font-size: 24px;
+}
+p {
+    font-size: 15px;
+}
+
+/*Links*/
+a:link {
+    color: green;
+}
+a:visited {
+    color: blue;
+}
+a:active, a:hover {
+    color: red;
+}
+
+/*IDs*/
+#left {
+    float: left;
+}
+#right {
+    float: right;
+}
+#logo {
+    width: 100px;
+    height: 100px;
+}
+#ffront {
+    text-align: left;
+}
+#fback {
+    text-align: right;
+}
+#divider {
+    display: block;
+    margin: auto;
+    width: 125px;
+    height: 125px;
+}
+
+/*Classes*/
+.disclaimer {
+    font-size: 11px;
+}
+.response {
+    display: none;
+}
+
+/*Responsive layout*/
+@media (max-width: 600px) {
+    .response {
+        display: block      !important;
+    }
+    .hide {
+        display: none       !important;
+    }
+}
